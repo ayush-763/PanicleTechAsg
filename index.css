@@ -1,0 +1,227 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.top-banner{
+    padding: 10px;
+    background: #f2f5f9;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar .container .logo{
+    margin-left: 10px;
+}
+
+.navbar .container .logo img{
+    height: 80px;
+}
+
+.navbar .container .items{
+    display:flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 5px 20px;
+}
+
+.navbar .container .items button{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline:none;
+    border:none;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.navbar .container .items .main-menu{
+    display:flex;
+    height: 35px;
+    padding: 15px 35px;
+    margin-left:10px;
+    background:#0f67fe;
+    border-radius: 10px;
+    width: 70%;
+    cursor: pointer;
+    align-items: center;
+}
+
+.navbar .container .items .main-menu img{
+    height: 20px;
+}
+
+.navbar .container .items .main-menu p{
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    /* margin-left: 7%; */
+}
+
+/* .hero{
+    padding: 20px 30px;
+} */
+
+.hero .container{
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 100%;
+}
+
+.hero .container .content{
+    margin-top: 4%;
+    margin-left: 7%;
+    padding: 30px 40px;
+    width: 32%;
+}
+
+.hero .container .content .heading1 h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 67px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.hero .container .content .para1 p{
+    margin-top: 10px;
+    font-size: 20px;   
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+.hero .container .content .para2 p{
+    margin-top: 30px;
+    font-size: 20px;   
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+}
+
+.hero .container .content .para2 p span{
+    font-size: 20px;   
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+}
+
+.hero .container .content .dwld-btn{
+    display: flex;
+    align-items: center;
+    background: #0f67fe;
+    width: 200px;
+    padding: 25px;  
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hero .container .content .dwld-btn p{
+    margin-right: 10px;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero .container .img-box{
+    margin-left: 25%;
+    z-index: 2;
+}
+
+.hero .container .img-box img{
+    height: 600px;
+}
+
+.about{
+    margin: 10px 20px;
+    padding: 50px;
+    background: #242E49;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.about .container1{
+    display:flex;
+    /* justify-content: space-between; */
+    max-width: 100%;
+}
+
+.about .container1 .personalized{
+    padding: 15px;
+}
+
+.about .container1 .personalized .person{
+    display: flex;
+    background: #8A3FFC;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.about .container1 .personalized .person .img-box{
+    padding: 30px;
+    background: #A56EFF;
+    border-radius: 3px;
+}
+.about .container1 .personalized .person .img-box img{
+    height: 25px;
+}
+
+.about .container1 .personalized .person h3{
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 25px;
+}
+
+.about .container1 .personalized-features{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    background: #3d4966;
+    border-radius: 25px;
+    padding-right: 30px;
+}
+
+.about .container1 .personalized-features li{
+    list-style-type:square;
+    margin: 5px 40px ;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 25px;
+}
+
+.about .container2 .healthcare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f67fe;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+.about .container2 .healthcare h3{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+}
+
+.about .container2 .container3{
+    display: flex;
+}
+
+.about .container2 .container3 .ai{
+    background-image: url("/images/bg-ai.png");
+    padding: 30px;
+    width:75%;
+    align-items: center;
+}
